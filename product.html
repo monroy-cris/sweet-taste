@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pagina web de sweet taste">
+    <meta name="keywords" content="arepas, dulces, postres, comida">
+    <title>alex_cuervo1104</title>
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    background-color: #FFA500; 
+    color: #000; 
+    text-align: center; 
+    padding: 140px; 
+    font-size: 5em; 
+    margin-top: 0; 
+    font-weight: bold;
+}
+
+#sobre-nuestro-producto p {
+    font-size: 1.1em; 
+    margin-top: 10px; 
+    margin-bottom: 30px; 
+    margin-left: 200px; 
+    margin-right: 200px
+}
+
+.two-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.two-box .box-img1, .two-box .box-img2 {
+  width: 520px;
+  height: 300px;
+  position: relative;
+  overflow: hidden; 
+}
+
+.two-box .box-img1 img,
+.two-box .box-img2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+
+.two-box .box-img1:hover, .two-box .box-img2:hover {
+  transform: scale(1.05); 
+  transition: transform 0.3s ease; 
+}
+
+#menu {
+    display: flex;
+    background-color: #000;
+    height: 120px;
+    color: white;
+    padding: 0 20px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    justify-content: center;
+}
+
+#menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    margin: 0 30px;
+}
+
+#menu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-weight: bold;
+}
+
+#menu ul li a:hover {
+    transform: translateY(3px);
+    background-color: #FFA500;
+}
+
+table {
+    width: 90%;
+    margin: 60px auto; /* Centra la tabla y agrega margen */
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para un efecto más bonito */
+    border-radius: 15px; /* Bordes redondeados */
+    overflow: hidden; /* Para que los bordes redondeados funcionen */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #FFA500; /* Color de fondo verde */
+    color: black;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table:first-of-type tr:last-child td {
+    background-color: #FFa500; /* Color de fondo para la última fila */
+    font-weight: bold; /* Resalta el texto */
+}
+
+tr:hover {
+    background-color: #e2f7e2; /* Color de fondo al pasar el cursor */
+}
+
+h2 { 
+    color: #000; 
+    text-align: center; 
+    font-size: 70px; 
+    margin-top: 60px; 
+    font-weight: bold;
+}
+
+h3 { 
+    color: #FFA500;
+    background-color: #000; 
+    text-align: center; 
+    font-size: 80px; 
+    margin-top: 60px; 
+    font-weight: bold;
+}
+
+.gif {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.gif .gif1, .gif .gif2 {
+  width: 520px;
+  height: 300px;
+  position: relative;
+  overflow: hidden; 
+}
+
+.gif .gif1 img,
+.gif .gif2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+}
+
+footer {
+    background-color: #FFA500;
+    color: black;
+    padding: 40px;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre Nosotros</a></li>
+            <li><a href="product.html" class="active">Sobre Nuestro Producto</a></li>
+            <li><a href="behind.html">Detrás de la Arepa</a></li>
+        </ul>
+    </nav>
+
+    <div id="container">
+        <section id="sobre-nuestro-producto">
+            <h1>Sobre Nuestro Producto</h1>
+
+            <p>En nuestra empresa estamos realmente orgullasos de ofrecer una innovación culinaria que transforma un clásico de la gastronomía colombiana, como lo es la arepa. Con en una innovación basada la combinacion de sabores que desafia las expectativas de nuestros clientes, presentamos nuestras arepas rellenas de queso y acompañadas de una exclusiva y deliciosa salsa de mora, leche condensada.</p>       
+            <p>Nuestras arepas rellenas son una explosión de sabores. Queso derretido, salsa de mora intensa y leche condensada suave, todo en una textura crujiente y suave. Un producto único, hecho con ingredientes frescos y de alta calidad, para deleitar tu paladar. Hechas 100% de harina de maiz blanco, te ofrecemos las mejores arepas frescas que podras encontrar, y puedes acompañarlas de nuestras deliciosas salsa o incluso con sal o mantequilla según tu preferencia.</p> 
+
+        </section>
+
+        <section class="two-box">
+            <div class="box-img1">
+                <img src="mora.jpg" alt="salsamora">
+            </div>
+            <div class="box-img2">
+                <img src="leche.jpg" alt="lechecondensada">
+            </div>
+        </section>
+
+
+        <h2>Presupuesto</h2>
+        <table>
+            <tr>
+                <th>Ingredientes o Descripción</th>
+                <th>Valor</th>
+            </tr>
+            <tr>
+                <td>Gaseosas x3</td>
+                <td>$15.000</td>
+            </tr>
+            <tr>
+                <td>Sal</td>
+                <td>$1.000</td>
+            </tr>
+            <tr>
+                <td>Azúcar</td>
+                <td>$1.000</td>
+            </tr>
+            <tr>
+                <td>Queso doble crema</td>
+                <td>$18.000</td>
+            </tr>
+            <tr>
+                <td>Harina de maiz blanco</td>
+                <td>$10.000</td>
+            </tr>
+            <tr>
+                <td>Mantequilla</td>
+                <td>$2.000</td>
+            </tr>
+            <tr>
+                <td>Aceite</td>
+                <td>$2.500</td>
+            </tr>
+            <tr>
+                <td>Huevo</td>
+                <td>$2.000</td>
+            </tr>
+            <tr>
+                <td>Leche Condensada</td>
+                <td>$5.000</td>
+            </tr>
+            <tr>
+                <td>Salsa de Mora</td>
+                <td>$4.000</td>
+            </tr>
+            <tr>
+                <td>Otros</td>
+                <td>total de Ingredientes: $60.500</td>
+            </tr>
+            <tr>
+                <td>Vasos</td>
+                <td>$2.000</td>
+            </tr>
+            <tr>
+                <td>Empaquetado</td>
+                <td>$2.500</td>
+            </tr>
+            <tr>
+                <td>TOTAL</td>
+                <td>$65.000</td>
+            </tr>
+        </table>
+
+        <h3>Cantidad a Vender: 40 unidades</h3>
+        <table>
+            <tr>
+                <th>Producto de arepa</th>
+                <th>Precio de Fabricación</th>
+                <th>Precio de Venta</th>
+            </tr>
+            <tr>
+                <td>Con sal y mantequilla</td>
+                <td>$1.000</td>
+                <td>$1.200</td>
+            </tr>
+            <tr>
+                <td>Con salsas</td>
+                <td>$1.250</td>
+                <td>$1.500</td>
+            </tr>
+            <tr>
+                <td>Con gaseosa</td>
+                <td>$1.625</td>
+                <td>$2.000</td>
+            </tr>
+        </table>
+
+        <section class="gif">
+            <div class="gif1">
+                <img src="https://i.makeagif.com/media/9-27-2015/bzWBoG.gif" alt="gifanimado">
+            </div>
+            <div class="gif2">
+                <img src="gif1.gif" alt="gifarepas">
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>No te olvides de contactarnos y saber más de nosotros</p>
+        <p>Instagram: @sweet_AreQueso | Teléfono: +57 314 5682891</p>
+    </footer>
+
+</body>
+</html>

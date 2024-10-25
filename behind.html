@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pagina web de sweet taste">
+    <meta name="keywords" content="arepas, dulces, postres, comida">
+    <title>hectmary_sosa1104</title>
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    background-color: #FFA500; 
+    color: #000; 
+    text-align: center; 
+    padding: 140px; 
+    font-size: 5em; 
+    margin-top: 0; 
+    font-weight: bold;
+}
+
+#sobre-arepa p {
+    font-size: 1.1em; 
+    margin-top: 10px; 
+    margin-bottom: 30px; 
+    margin-left: 200px; 
+    margin-right: 200px
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 40px; 
+}
+
+.video-container iframe {
+    max-width: 100%; 
+    height: 315px; 
+}
+
+#receta p {
+    font-size: 1.1em; 
+    margin-top: 10px; 
+    margin-bottom: 30px; 
+    margin-left: 200px; 
+    margin-right: 200px
+}
+
+#menu {
+    display: flex;
+    background-color: #000;
+    height: 120px;
+    color: white;
+    padding: 0 20px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    justify-content: center;
+}
+
+#menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    margin: 0 30px;
+}
+
+#menu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-weight: bold;
+}
+
+#menu ul li a:hover {
+    transform: translateY(3px);
+    background-color: #FFA500;
+}
+
+.tik {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.tik .tik1, .tik .tik2 { 
+    width: 520px; 
+    height: 100%; 
+    position: relative;
+    overflow: hidden;
+}
+
+.tik blockquote {
+    margin: 0;
+    background: transparent;
+}
+
+.tik iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+.testimonials {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.testimonials .main-title {
+    font-size: 3em;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.testimonials {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+  position: relative;
+  background-color: var(--section-background);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 60px
+}
+
+.testimonials .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonials .box {
+  padding: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 7%);
+  border-radius: 6px;
+  position: relative;
+}
+
+.testimonials .box img {
+  position: absolute;
+  right: -10px;
+  top: -50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50;
+  -moz-border-radius: 50;
+  -ms-border-radius: 50;
+  -o-border-radius: 50;
+  border: 10px solid var(--section-background);
+}
+
+.testimonials .box .h3 {
+  margin: 0 0 10px;
+}
+
+.testimonials .box .title {
+  color: #000;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.testimonials .box .rate .filled {
+  color: #000;
+}
+
+.testimonials .box p {
+  line-height: 1.5;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+footer {
+    background-color: #FFA500;
+    color: black;
+    padding: 40px;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+</style>
+
+</head>
+<body>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Sobre Nosotros</a></li>
+            <li><a href="product.html">Sobre Nuestro Producto</a></li>
+            <li><a href="behind.html" class="active">Detrás de la Arepa</a></li>
+        </ul>
+    </nav>
+
+    <div id="container">
+        <section id="sobre-arepa">
+            <h1>Detrás de la Arepa</h1>
+            <p>Las arepas son un alimento tradicional de varios países de América Latina, especialmente en Venezuela y Colombia. Su origen se remonta a las culturas indígenas de la región andina, donde se elaboraban con maíz. Se cree que los pueblos precolombinos, como los Tainos y los pueblos muiscas, ya consumían una especie de pan de maíz antes de la llegada de los europeos en el siglo XV.</p>
+            <p>Con el tiempo, la arepa evolucionó y se adaptó a diferentes ingredientes y preparaciones, convirtiéndose en un plato versátil que se puede rellenar con una variedad de ingredientes, desde carnes y quesos hasta vegetales y guisos. En Venezuela, la arepa es un elemento central de la dieta, y se le considera un símbolo cultural, con diversas variantes según la región. En Colombia, también se disfruta como un acompañante o plato principal, con diferentes estilos y recetas.</p>
+            <p>A lo largo de los años, la arepa ha ganado popularidad más allá de las fronteras de América Latina, convirtiéndose en un alimento reconocido internacionalmente. Su versatilidad y sabor la han hecho un favorito en la gastronomía contemporánea, con versiones que incluyen opciones gluten-free y veganas.</p>
+        </section>
+
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/c4RCKzwIIlY?si=YKHbcC4EkKWC1geJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <section id="receta">
+            <p>Las arepas rellenas de queso son una delicia que combina la sencillez de la masa de maíz con el sabor cremoso del queso. Para prepararlas, comienza mezclando masa de maíz con agua, mantequilla y una pizca de sal hasta obtener una masa suave y maleable. Forma bolas del tamaño de una pelota de golf y luego introdúceles el queso en el interior para luego aplanarlas en discos de aproximadamente un centímetro de grosor.</p>
+            <p>Calienta una sartén o plancha a fuego medio y cocina las arepas durante unos 5-7 minutos por cada lado, hasta que estén doradas y cocidas por dentro.</p>
+            <p>Para realzar el sabor, acompaña las arepas con un chorrito de leche condensada y, finalmente, añade un poco de salsa de mora por encima o al lado para darle un toque fresco y afrutado.</p>
+        </section>
+
+        <section class="tik">
+            <div class="tik1">
+                <blockquote class="tiktok-embed" 
+                cite="https://www.tiktok.com/@tuliorecomiendaoficial/video/7157808556928978181" 
+                data-video-id="7157808556928978181" 
+                style="max-width: 605px; min-width: 325px;">
+    
+                <section>
+                    <a target="_blank" title="@tuliorecomiendaoficial" href="https://www.tiktok.com/@tuliorecomiendaoficial?refer=embed">@tuliorecomiendaoficial</a>
+                    <p>¿Arepa con Leche condensada?</p>
+                    <a target="_blank" title="♬ sonido original - Tulio Recomienda" href="https://www.tiktok.com/music/sonido-original-7157808620931123973?refer=embed">♬ sonido original - Tulio Recomienda</a>
+                </section>
+            </blockquote>
+
+            <script async src="https://www.tiktok.com/embed.js"></script>
+
+            </div>
+            <div class="tik2">
+                <blockquote class="tiktok-embed" 
+    cite="https://www.tiktok.com/@linaelejaldecocina/video/7269929518519848198" 
+    data-video-id="7269929518519848198" 
+    style="max-width: 605px; min-width: 325px;">
+    
+    <section>
+        <a target="_blank" title="@linaelejaldecocina" href="https://www.tiktok.com/@linaelejaldecocina?refer=embed">@linaelejaldecocina</a>
+        Arepas rellenas de queso 🧀 bañadas con leche condensada 🫠
+    </section>
+</blockquote>
+<script async src="https://www.tiktok.com/embed.js"></script>
+            </div>
+        </section>
+
+        <div class="testimonials" id="testimonials">
+            <h2 class="main-title">Testimonios</h2>
+            <div class="container">
+                <div class="box">
+                    <img src="https://static.vecteezy.com/system/resources/previews/002/318/271/non_2x/user-profile-icon-free-vector.jpg" alt="user">
+                    <h3>Carlos Rojas</h3>
+                    <span class="title">testimonio</span>
+                    <p>Las arepas son estupendas, han sido las mejores que he comido en mucho tiempo.</p>
+                </div>
+
+                <div class="box">
+                    <img src="https://static.vecteezy.com/system/resources/previews/002/318/271/non_2x/user-profile-icon-free-vector.jpg" alt="user">
+                    <h3>Lorena Martinez</h3>
+                    <span class="title">testimonio</span>
+                    <p>Las probe y en realidad son muy buenas, las salsas le dan el toque final para poder disfrutar al maximo de ellas.</p>
+                </div>
+
+                <div class="box">
+                    <img src="https://static.vecteezy.com/system/resources/previews/002/318/271/non_2x/user-profile-icon-free-vector.jpg" alt="user">
+                    <h3>Camilo Lopez</h3>
+                    <span class="title">testimonio</span>
+                    <p>Desde que las probe siempre las compro cuando regreso de trabajar, fueron un descubrimiento grandioso.</p>
+                </div>
+
+                <div class="box">
+                    <img src="https://static.vecteezy.com/system/resources/previews/002/318/271/non_2x/user-profile-icon-free-vector.jpg" alt="user">
+                    <h3>Sofia Muñoz</h3>
+                    <span class="title">testimonio</span>
+                    <p>Lo mejor de ellas es su queso derretido, es estupendo ver como se estira:</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>No te olvides de contactarnos y saber más de nosotros</p>
+            <p>Instagram: @sweet_AreQueso | Teléfono: +57 314 5682891</p>
+        </footer>
+    </div>
+</body>
+</html>

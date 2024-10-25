@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pagina web de sweet taste">
+    <meta name="keywords" content="arepas, dulces, postres, comida">
+    <title>cristian_monroy1104</title>
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    font-size: 100px;
+    color: black;
+    margin-bottom: 0;
+}
+
+#menu {
+    display: flex;
+    background-color: #000;
+    height: 120px;
+    color: white;
+    padding: 0 20px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    justify-content: center;
+}
+
+#menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    margin: 0 30px;
+}
+
+#menu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-weight: bold;
+}
+
+#menu ul li a:hover {
+    transform: translateY(3px);
+    background-color: #FFA500;
+}
+
+h2 {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: center;
+    background-color: #FFA500;
+}
+
+#container {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+#quienes-somos {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.text-container {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 20px;
+    max-width: 600px;
+}
+
+h3 {
+    color: black;
+    font-size: 55px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.additional-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+}
+
+.gif-container {
+    width: 100%;
+    text-align: center;
+    max-width: 650px;
+}
+
+.gif-image {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #FFA500;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-message {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+nav ul li {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f8b400;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+.photo {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.75;
+}
+
+.photo-text {
+    position: relative;
+    z-index: 1;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+
+    <div class="photo">
+        <img src="fondo.jpg" alt="imagenarepadefondo" style="max-width: 100%; border-radius: 10px;">
+          <div class="photo-text">
+          <h1>Bienvenido a Sweet Taste</h1>
+          <p>Dulzura en cada bocado, arepas que alegran tu vida</p>
+        </div>    
+    </div>
+
+
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html" class="active">Inicio</a></li>
+            <li><a href="about.html">Sobre Nosotros</a></li>
+            <li><a href="product.html">Sobre Nuestro Producto</a></li>
+            <li><a href="behind.html">Detrás de la Arepa</a></li>
+        </ul>
+    </nav>
+
+    <h2>Cristian Sneider Monroy<br>
+        Deivy Alexander Cuervo<br>
+        Jimena Ipia Medina<br>
+        Hectmary Desiree Sosa
+    </h2>
+
+    <div id="container">
+        <section id="quienes-somos">
+            <div class="text-container">
+                <h3>¿Quiénes Somos?</h3>
+                <p>En nuestra empresa, nos apasiona ofrecer una experiencia<br>
+                    única a través de nuestras deliciosas arepas dulces. Nos<br>
+                    especializamos en la fusión perfecta de sabores, <br>
+                    combinando la suavidad de nuestras arepas rellenas de <br>
+                   queso con la dulzura irresistible de la leche condensada y <br>
+                   un toque especial de salsa de mora.</p>
+            </div>
+            <div class="image-container">
+                <img src="https://vecinavegetariana.com/wp-content/uploads/2021/09/20210915_153654_edited-2-1024x768.jpeg" alt="arepa rellena de queso">
+            </div>
+        </section>
+    </div>
+
+    <div class="additional-content">
+        <div class="gif-container">
+            <img src="https://media3.giphy.com/media/9SINbM2yHqMAnLu7u2/giphy.gif?cid=6c09b952iqlnxixa6rkoxllx8q5wgthk17uvsfv0a1wrdya1&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="GIF animado" class="gif-image">
+        </div>
+        <div class="right-content">
+            <p>
+                Creemos que cada arepa cuenta una historia, y estamos aquí <br>
+                para compartir la nuestra: la tradición de la arepa, reinventada <br>
+                para satisfacer los paladares más exigentes. Acompáñanos en <br>
+                este viaje de sabores y déjate llevar por la dulzura y la <br>
+                creatividad de nuestras propuestas.<br>
+            </p>
+        </div>
+    </div>
+
+
+   <div class="video-container">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/bmSJODXIdcM?si=JZ8RnvcxqWRdemZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   </div>  
+
+    <div class="footer-message">
+        <h4>¡Te esperamos!</h4>
+    </div>
+
+
+    <footer>
+        <p>No te olvides de contactarnos y saber mas de nosotros</p>
+        <p>Instagram: @sweet_AreQueso | Teléfono: +57 314 5682891</p>
+    </footer>
+</body>
+</html>

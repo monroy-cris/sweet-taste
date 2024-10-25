@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pagina web de sweet taste">
+    <meta name="keywords" content="arepas, dulces, postres, comida">
+    <title>jimena_ipia1104</title>
+
+<style>
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    background-color: #FFA500; 
+    color: #000; 
+    text-align: center; 
+    padding: 140px; 
+    font-size: 5em; 
+    margin-top: 0; 
+    font-weight: bold;
+}
+
+#sobre-nosotros p {
+    font-size: 1.1em; 
+    margin-top: 10px; 
+    margin-bottom: 30px; 
+    margin-left: 200px; 
+    margin-right: 200px
+}
+
+
+.imagen-sobre-nosotros {
+    display: block;         
+    margin: 0 auto;        
+    width: 100%;           
+    height: auto;          
+    max-width: 700px;     
+    margin-top: 60px;
+}
+
+.cuadro-lema {
+    background-color: #FFA500; 
+    padding: 20px;             
+    border-radius: 8px;       
+    margin: 20px auto;        
+    width: fit-content;       
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    font-size: 25px;       
+}
+
+.two-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.two-box .box-img1, .two-box .box-img2 {
+  width: 520px;
+  height: 238px;
+  position: relative;
+  overflow: hidden; 
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.two-box .box-img1 img,
+.two-box .box-img2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  opacity: 0.4; 
+  font-weight: bold;
+}
+
+.two-box .box-img1 h2,
+.two-box .box-img1 p,
+.two-box .box-img2 h2,
+.two-box .box-img2 p {
+  color: black; 
+  position: absolute;
+  left: 44px;
+}
+
+.two-box .box-img1 h2,
+.two-box .box-img2 h2 {
+  top: 20px; 
+  font-size: 2em; 
+}
+
+.two-box .box-img1 p,
+.two-box .box-img2 p {
+  top: 80px; 
+  font-size: 1.2em; 
+  font-weight: bold;
+}
+
+.two-box .box-img1:hover, .two-box .box-img2:hover {
+  transform: scale(1.05); 
+  transition: transform 0.3s ease; 
+}
+
+#menu {
+    display: flex;
+    background-color: #000;
+    height: 120px;
+    color: white;
+    padding: 0 20px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    justify-content: center;
+}
+
+#menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    margin: 0 30px;
+}
+
+#menu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-weight: bold;
+}
+
+#menu ul li a:hover {
+    transform: translateY(3px);
+    background-color: #FFA500;
+}
+
+.objetivos {
+    padding: 20px;                   
+    border: 1px solid #ccc;          
+    border-radius: 5px;              
+    background-color: #f9f9f9;       
+    margin: 0 auto;
+    margin: 60px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #FFA500;
+    color: black;
+    padding: 40px;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+
+
+</style>
+
+</head>
+<body>
+  
+    <nav id="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html" class="active">Sobre Nosotros</a></li>
+            <li><a href="product.html">Sobre Nuestro Producto</a></li>
+            <li><a href="behind.html">Detrás de la Arepa</a></li>
+        </ul>
+    </nav>
+
+    <div id="container">
+        <section id="sobre-nosotros">
+            <h1>Sobre Nosotros</h1>
+
+            <p>En Sweet Taste, somos apasionados por crear experiencias gastronómicas inolvidables a través de nuestras deliciosas arepas. Desde nuestro inicio hemos perfeccionado nuestra receta para ofrecerte la mejor combinación de sabores y texturas. Nuestro secreto es la combinación perfecta de ingredientes frescos, queso cremoso y nuestras exclusivas salsas de mora y leche condensada, que agregamos con amor y cuidado a cada una de nuestras arepas.</p>
+            
+            <p>Buscamos que cada bocado te haga sentir como en casa, rodeado de la calidez y la comodidad que solo la comida casera puede ofrecer. Nuestro equipo está comprometido con la calidad y la excelencia en cada detalle, desde la selección de los ingredientes hasta la presentación final de nuestras arepas. Queremos que cada momento que pases con nosotros sea una experiencia memorable, llena de sabores y sensaciones que te hagan regresar una y otra vez.</p>
+            
+            <p>En Sweet Taste, creemos que la comida es mucho más que solo algo para satisfacer el hambre; es una forma de conectar con los demás, de compartir momentos y crear recuerdos. Nuestra pasión por la comida y la hospitalidad es lo que nos impulsa a seguir innovando y mejorando cada día, para que tú puedas disfrutar de la mejor experiencia posible.</p>
+
+            <div class="contenido-sobre-nosotros">
+                <img src="logo.jpg" alt="logo" class="imagen-sobre-nosotros">
+                
+                <div class="cuadro-lema">
+                    <p><strong>Lema de la Empresa:</strong></p>
+                    <p>Dulzura en cada bocado, arepas que alegran tu vida</p>
+                </div>
+            </div>
+
+            <img src="organigrama.jpeg" alt="organigrama" class="imagen-sobre-nosotros">
+        </section>
+
+        <section class="two-box">
+            <div class="box-img1">
+                <img src="https://i.blogs.es/f4a03e/arepas2/650_1200.jpg" alt="arepas">
+                <h2>Misión</h2>
+                <p>La empresa ofrecerá a sus clientes una experiencia exquisita gracias a su atención y su producto de alta calidad, y variedad de sabores que harán sentir una explosión de felicidad.</p>
+            </div>
+            <div class="box-img2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfexwVEPhlnF_mR9410d3vBo37K8WJ7QeiMYvPnPKVxFY6C4zg" alt="arepas con queso">
+                <h2>Visión</h2>
+                <p>Lograr posicionarnos en el mercado y consolidarnos como una empresa de excelente calidad, destacandonos por nuestra pasión y compromiso para satisfacer con cada bocado a nuestros consumidores.</p>
+            </div>
+        </section>
+
+        <section class="objetivos">
+            <h4>Objetivos</h4>
+            <h5>Objetivo General:</h5>
+            <p>Incrementaremos nuestro reconocimiento como marca y nuestro posicionamiento en el mercado para ampliar nuestras ventas.</p>
+            
+            <h5>Objetivos Específicos:</h5>
+            <ul>
+                <li>Implementaremos estrategias para atraer a nuevos clientes y generar más compras.</li>
+                <li>Pondremos en práctica una excelente logística para la producción y calidad de nuestros productos.</li>
+                <li>Brindaremos una excelente experiencia al cliente que garantice que el consumidor quiera comprar nuestro producto.</li>
+                <li>Lograremos una venta con altos estándares de calidad para que cada producto sea único.</li>
+                <li>Satisfaceremos al cliente en los diferentes puntos de venta donde estamos.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>No te olvides de contactarnos y saber más de nosotros</p>
+        <p>Instagram: @sweet_AreQueso | Teléfono: +57 314 5682891</p>
+    </footer>
+</body>
+</html>
